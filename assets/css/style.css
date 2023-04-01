@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montagu+Slab:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial;
+    font-family: Alkatra, montagu;
+    font-weight: 300;
+    color: #896b60;
+}
+
+/* headings an logo */
+
+h1, h2 {
+    font-family: Alkatra, montagu;
+    text transform: uppercase;
+    letter-spacing: 4px;
+    color: #4a332d;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+
 }
