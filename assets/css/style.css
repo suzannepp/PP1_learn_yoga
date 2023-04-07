@@ -150,15 +150,6 @@ hr {
 
     }
 
-    .form-section {
-        background-color: #c5f2ec
-        height: 100%;
-        text-align: center;
-        margin: 100px;
-        font-size: 280;
-        margin-bottom: 50px;
-    }
-
 /* footer */
 
 footer {
@@ -187,4 +178,58 @@ footer {
     width: 100%;
     background: url('../images/sign-up.webp') no-repeat center center;
     background-size: cover;
+}
+
+.signup-form {
+    margin-top: 100px;
+    color:#fafafa;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 300px;
+    position: absolute;
+    left: 5%;
+    padding: 10px;
+}
+
+.signup-form > h2 {
+   color: #fafafa;
+   margin-bottom: 20px;
+}
+
+.text-input {
+   background: transparent;
+   color: #fafafa;
+   width: 100%;
+   height: 25px;
+   margin: 5px 0 20px 0;
+   border: 1px solid #fafafa;
+   border-radius: 2px;
+}
+
+.text-input:hover {
+   border-color: #4a332d
+}
+
+.join-button {
+   margin-top: 20px;
+   border-radius: 2px;
+   padding: 15px 32px 15px 32px;
+   text-align: center;
+   font-size: 100%;
+   background-color: #4a332d
+   color: #fafafa;
+   display: block;
+}
+
+.join-button:hover {
+   background-color: #4a332d
+   color: #4a332d
+}
+
+.form-section {
+    background-color: #c5f2ec
+    height: 100%;
+    text-align: center;
+    margin: 100px;
+    font-size: 280;
+    margin-bottom: 50px;
 }
