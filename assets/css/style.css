@@ -179,3 +179,12 @@ footer {
     padding: 5%;
     color: #4b2b9a;
 }
+
+/* sign-up page */
+
+#sign-up {
+    height: 800px;
+    width: 100%;
+    background: url('../images/sign-up.webp') no-repeat center center;
+    background-size: cover;
+}
