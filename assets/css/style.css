@@ -76,8 +76,8 @@ h1, h2 {
 /* why yoga */
 
 #why-yoga {
-    height: 600px;
-    background-color: #d1d1cc;
+    
+    background-color: #bdd1c5;
     text-align: center;
 }
 
@@ -147,14 +147,6 @@ hr {
      height: 100%;
      border-radius: 50%;
     }
-
-/* Aim */
-
-#aim {
-    height: 200px;
-    text-align: center;
-
-}
 
 /* footer */
 
@@ -233,3 +225,22 @@ footer {
     color: #4a332d;
 }
 
+/* Class Details */
+
+#classes {
+    height: 600px;
+    width: 100%;
+    background: url(../images/times.webp) no-repeat center center;
+    background-size: cover;
+    }
+
+#classes div {
+    color: #4a332d;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 33%;
+    height: 300px;
+    float: left;
+
+
+
+}
