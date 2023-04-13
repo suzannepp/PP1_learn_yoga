@@ -151,7 +151,7 @@ hr {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
@@ -259,3 +259,39 @@ footer {
     #photos > img {
         width: 100%;
     }
+
+    /* Media Queries */
+
+    /* For larger to medium screen from 1200px wide and below */
+
+    @media screen and (max-width: 1200px) {
+
+        #logo  {
+            width: 65%;
+            height: 1200px;
+            margin: 0 auto;
+            padding: 30px 0;
+            margin: 0;
+        }
+        
+        #why-yoga {
+            width: 65%;
+            height: 1200px;
+            margin: 0 auto;
+            padding: 30px 0;
+            margin: 0;
+        }
+
+        #left-about, #right-about {
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+
+        #center-about {
+            clear: both;
+            width: 100%;
+            float: left;
+            padding: 0;
+
+        }
