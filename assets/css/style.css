@@ -71,6 +71,7 @@ h1, h2 {
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center;
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 /* why yoga */
@@ -79,6 +80,7 @@ h1, h2 {
     
     background-color: #bdd1c5;
     text-align: center;
+    text-decoration: underline;
 }
 
 #left-about {
@@ -99,11 +101,6 @@ h1, h2 {
     margin: 0 auto;
 }
 
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
 
 .left-about-heading {
     width: 70%;
@@ -239,11 +236,12 @@ footer {
 
 #classes div {
     color: #4a332d;
-    width: 33%;
+    width: 33.3%;
     height: 200px;
     float: left;
-    padding: 30px 0 0 20px;
+    padding: 30px 0 0 10px;
     text-align: center;
+    border: 2px solid white;
     box-sizing: border-box;
 
     }
